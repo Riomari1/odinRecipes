@@ -1,8 +1,79 @@
-<header>
-    <h1>Odin Recipes</h1>
-</header>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #c1ebe9; /* Calming color: Light Greenish Blue */
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .recipes-container {
+      display: grid;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .recipe {
+      display: grid;
+      grid-template-columns: 300px auto;
+      gap: 20px;
+      align-items: center;
+      background-color: #c1ebe9; /* Calming color: Light Greenish Blue */
+      padding: 20px;
+    }
+    .recipe img {
+      max-width: 100%;
+    }
+    .recipe h2 {
+      margin-bottom: 10px;
+    }
+    .recipe p {
+      margin: 0;
+    }
+  </style>
+</head>
 <body>
-    <a href="Recipes/Oden.html">Oden</a>
-    <a href="Recipes/Tonkotsu.html">Tonkotsu</a>
+  <h1>Welcome to Our Recipe Website<p></p>
+  <img src="land.jpeg" width="750" height="500">
+</h1>
+  <div class="recipe">
+    <img src="oden.jpg" alt="Recipe 1">
+    <div>
+      <h2>Oden</h2>
+      <p>Oden is a type of nabemono, consisting of several ingredients such as boiled eggs, daikon, konjac, and processed fishcakes stewed in a light, soy-flavored dashi broth.</p>
+      <a href="Recipes/Oden.html">View Recipe</a>
+    </div>
+  </div>
+
+  <div class="recipe">
+    <img src="tonkotsuPic.jpg" alt="Recipe 2">
+    <div>
+      <h2>Tonkotsu</h2>
+      <p>Tonkotsu ramen is a deliciously creamy pork bone broth traditionally served up with long thin noodles and topped with a variety of ingredients.</p>
+      <a href="Recipes/Tonkotsu.html">View Recipe</a>
+    </div>
+  </div>
+
+  <div class="recipe">
+    <img src="SALSA.jpg" alt="Recipe 3">
+    <div>
+      <h2>Salsa</h2>
+      <p>Salsa is a variety of sauces used as condiments for tacos and other Mexican and Mexican-American foods, and as dips for tortilla chips.</p>
+      <a href="Recipes/Salsa.html">View Recipe</a>
+    </div>
+  </div>
+
 </body>
+</html>
